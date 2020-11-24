@@ -1,0 +1,191 @@
+@import url ('https://fonts.googleapis.com/css2? family = Niconne & display = swap');
+
+body{
+    background-image: linear-gradient( 180deg, rgba(186,189,196,0.9556197478991597), rgba(171,182,203,0.7091211484593838) ), url(https://i.pinimg.com/originals/40/3b/d3/403bd37a612adccd7ed20c8669bde955.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+  font-family: 'Niconne', cursive;
+}
+header {
+  position: fixed;
+  width: 100%;
+  margin: -10px;
+  padding: 0px;
+}
+.fixnav{
+  background-color:grey;
+}
+#header-img{
+  position:absolute;
+  margin-top:10px;
+  width:268px;
+  height:30px;
+  background: url(image_de_fond.jpg) top left no-repeat; 
+}
+
+#nav-bar{
+  display:block;
+  height:50px;
+  
+}
+
+#nav-bar ul{
+  list-style: none;
+  padding:0;
+  margin:0;
+}
+
+#nav-bar li{
+  float:right;
+  padding-top: 10px;
+  padding-right: 50px;
+  
+    
+}
+
+#nav-bar li a{
+  text-align:center;
+  margin-right:100px;
+  color:white;
+  text-decoration:none;
+  font-size: 22px;
+} 
+
+
+
+#nav-bar li a:hover{
+    background-color: #44748d;
+    
+    
+}
+
+h1 {
+  text-align: center;
+  
+}
+
+
+input[type=email]{
+  padding:8px 15px;
+  
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 4px;
+  float:bottom;
+}
+
+input[type=submit]:hover {
+  background-color: lightblue;
+}
+
+#home{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+}
+
+#about_kabyle_music{
+    padding: 80px;
+}
+.section1{
+  margin:22px;
+}
+
+p{
+  text-indent: 40px;
+  text-align: justify; 
+  
+}
+
+.section2{
+    width: 1200px;
+    text-align: justify;
+    margin-left: 200px;
+}
+
+
+
+.section3{
+  display: flex;
+  flex: row;
+  justify-content: space-around;
+  margin: 0 80px 0 80px;
+    
+}
+
+.music{
+    padding: 10px 0 10px 0;
+}
+
+#galeries{
+  text-align:center;
+  color: azure;
+  display: flex;
+  flex-direction: column;
+    
+    
+}
+
+
+
+.section4 img{
+  margin: 8px;
+  border: 1px solid #ccc;
+  width: 600px;
+}
+
+@media only screen and (max-width: 1024px) {
+  #galeries {
+    width: 50%;
+    margin: 6px 0;
+  }
+    .section3{
+         display: flex;
+         flex-wrap: wrap; 
+        
+    }
+    
+     #header-img{
+        display: none;
+    }
+   
+}
+
+@media only screen and (max-width: 500px) {
+  #galeries {
+    width: 100%;
+  }
+   
+     
+}
+
+@media only screen and (max-width: 1024px){
+    #nav-bar{
+        width: auto;
+        text-align: left;
+    }
+    
+    #nav-bar ul{
+        flex-direction: column;
+    }
+
+    #nav-bar li{
+        padding-left: 4px;
+    }
+    
+    #nav-bar a{
+        font-size: 20px;
+    }
+    
+    #nav-bar a:hover{
+        border-bottom: 0;
+    }
+}
+
+
